@@ -1,0 +1,85 @@
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.top{
+    height: 6vh;
+    padding:5px;
+    display: flex;
+    justify-content: space-between;
+}
+h3,p{
+    color:white;
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+p{
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+.container{
+    max-width: 350px; 
+    margin: 0 auto;
+    padding:2px;
+}
+img{
+    height: 100%;
+}
+.img-container{
+    background: red;
+    min-height: 80vh;
+    width:100%;
+    background:url(./images/dog-bella.jpg);
+    background-size: cover;
+    position: relative;
+}
+.img-bottom-content{
+    position: absolute;
+    bottom: 0;
+    padding:7px;
+}
+.bottom-conteiner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin:7px 5px;
+    width:50px;
+    border-radius: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding:12px;
+    border:none;
+    background:#fff;
+    box-shadow: -1px 1px 10px rgba(0,0,0,0.2);
+    outline: none;
+    cursor: pointer;
+}
+.btn-like:hover{
+    background: #DBFFF4;
+    box-shadow: 5px 5px 15px rgba(219, 255, 244,0.5),
+    -1px -1px 10px rgba(0,0,0,0.15);
+
+}
+.btn-reject:hover{
+    background: #FFE7EF;
+    box-shadow: 5px 5px 15px rgba(255, 231, 239,0.5),
+    -1px -1px 10px rgba(0,0,0,0.15);
+
+}
+.islike{
+    width:100px;
+    transform: rotate(-30deg);
+    position: relative;
+    top:40px;
+    left: 20px;
+    display: block;
+}
