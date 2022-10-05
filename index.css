@@ -77,9 +77,10 @@ img{
 }
 .islike{
     width:100px;
+    height: 50px;
     transform: rotate(-30deg);
     position: relative;
     top:40px;
     left: 20px;
-    display: block;
+    /* display: block; */
 }
