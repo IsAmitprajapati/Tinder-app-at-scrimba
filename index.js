@@ -1,4 +1,5 @@
-// Remember to import the data and Dog class!
+// netlify link : https://profound-dasik-56075b.netlify.app/ 
+
 import Dog from "./Dog.js"
 import dogs from "./data.js"
 
